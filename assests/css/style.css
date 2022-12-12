@@ -1,0 +1,578 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+
+
+
+
+
+/* =================global-style============== */
+
+
+:root{
+    --color-black: #000000;
+    --color-white: #fff;
+    --color-p: #9b95c9;
+    --color-s: #30aad7;
+    --color-t:#005b8b;
+    --color-w:#61c2ee;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+ul {
+	
+	margin-left: -27px;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+.btnn a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: white;
+    background: var(--color-p);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.btnnn a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: white;
+    background: var(--color-s);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.bold-text h2{
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 700;
+    color: var(--color-t);
+}
+
+.textt h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.textt p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.ptext p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+
+
+
+
+/* ===========topbar-section-------------- */
+
+
+.blueee-icon li i {
+    color:blue;
+    margin-right: 5px;
+}
+
+
+
+.topbar-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 0px 10px;
+    
+}
+
+.topbar-section .row ul li a:hover{
+    color: red;
+}
+
+
+
+
+.topbar-section .me-5 {
+	margin-right: 6rem !important;
+}
+
+
+
+/* ======================navbar-section======================== */
+
+.navbar-section{
+    z-index: 1;
+}
+
+
+/* ================bannner-section======================= */
+
+.banner-section{
+    background-image: url(../img/banner.jpg);
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.content h1{
+    font-size: 60px;
+    line-height: 66px;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: var(--color-white);
+    letter-spacing: 1px;
+}
+
+
+
+.banner-section .row {
+	--bs-gutter-x:0rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: calc(-.5 * var(--bs-gutter-x));
+	margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+
+.text1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    padding: 20px 0px;
+    color: var(--color-white);
+    background: var(--color-w);
+}
+
+.bg1{
+    background: #30aad7;
+}
+
+.bg2{
+    background: var(--color-t);
+}
+
+/* ===========sweat-card-section======================== */
+
+.card-section .chi{
+    background: #eff9fd;
+    max-width: 385px;
+}
+
+/* ========================latest-technology---friendly-section=================== */
+
+.latest-technology-section{
+    background-image: url(../img/latest-technology.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0px;
+}
+
+.friendly-section{
+    background-image: url(../img/friendly-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0px;
+}
+
+.latest-technology-section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.friendly-section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.latest-technology-section a{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.friendly-section a{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+    
+.friendly-section .textt h3{
+    color: var(--color-s);
+    font-weight: 300;
+}
+
+.latest-technology-section .textt h3{
+    color: var(--color-s);
+    font-weight: 300;
+}
+
+
+/* ===================dentist-trust-section================= */
+
+.dentist-trust-section{
+    background: var(--color-w);
+}
+
+
+
+.dentist-trust-section a{
+    color: var(--color-t);
+    background: var(--color-white);
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.dentist-trust-section h2{
+    color: white;
+}
+
+
+.dentist-trust-section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: white;
+}
+
+
+
+/* ================dental-health-section============== */
+
+
+.dental-health-section .col-4 .health-img1{
+
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background:#eff9fd;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.dental-health-section .col-4 .health-img2{
+
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background:#eff9fd;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.dental-health-section .col-4 .health-img3{
+
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background:#eff9fd;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+
+.dental-health-section .col-4 .health-img1::before{
+    content: "1";
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    right: 0;
+    top: 10px;
+    color: var(--color-white);
+    background: var(--color-t);
+}
+
+
+.dental-health-section .col-4 .health-img2::before{
+    content: "2";
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    right: 0;
+    top: 10px;
+    color: var(--color-white);
+    background: var(--color-t);
+}
+
+
+.dental-health-section .col-4 .health-img3::before{
+    content: "3";
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    right: 0;
+    top: 10px;
+    color: var(--color-white);
+    background: var(--color-t);
+}
+
+
+/* ====================testimonial========================== */
+
+.author-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.card-text p{
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    max-width: 628px;
+    margin: 0 auto;
+}
+
+
+.card-text p::before{
+    content: url(../img/up-cottetion.png);
+    position: absolute;
+    left: -19px;
+    top: -6px;
+}
+
+
+.card-text p::after{
+    content: url(../img/down-cottetion.png);
+    position: absolute;
+    right: -19px;
+    bottom: 12px;
+}
+
+.author-content p{
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.author-content h4{
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+
+/* ======================our-services-section==================== */
+
+
+.our-services-section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.our-services-section ul{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.our-services-section li {
+    position: relative;
+}
+
+.our-services-section i {
+	position: absolute;
+	left: -26px;
+	top: 5px;
+	color: white;
+	background: blue;
+	font-weight: bold;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	font-size: 17px;
+}
+
+
+.our-services-section a{
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* =================oral-pain-section=============== */
+
+.oral-pain-section{
+    background: #eff9fd;
+}
+
+.oral-pain-section .col-12{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+
+.oral-pain-section .col-12 p{
+    
+    max-width: 797px;
+    margin: 0 auto;
+    
+}
+
+
+/* ======================about-section=================== */
+
+
+.about-section .col-12{
+    max-width: 926px;
+    margin: 0 auto;
+}
+
+
+.dropdown button{
+    color: var(--color-s);
+}
+
+/* ====================smile-section================== */
+
+.smile-section{
+    background: var(--color-t);
+}
+
+
+.smile-section h2{
+    color: var(--color-white);
+}
+
+
+/* ===============footer-section====================== */
+
+.footer-section{
+    background: #222222;
+}
+
+.footer-section p a{
+    text-decoration: none;
+    color: var(--color-white);
+    transition: .3s;
+}
+
+.footer-section p a:hover{
+    color: red;
+}
+
+.footer-section .naii ul li a{
+    text-decoration: none;
+}
+
+.footer-section span{
+    margin-right: 15px;
+}
+
+.texx p{
+    font-size: 13px;
+    max-width: 474px;
+}
+
+.atext a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.atext i{
+    color:blue;
+    margin-right: 10px;
+}
+
+
+/* =================last-section========================== */
+
+
+.last-section{
+    background: var(--color-black);
+}
+
+
+
+.last-section i{
+    color: var(--color-white);
+    transition: .3s;
+}
+
+
+.last-section i:hover{
+    color: red;
+}
+
+
+.last-section p a{
+    text-decoration: none;
+}
+
+.last-text ul{
+    padding: 0;
+}
+
+.last-text{
+    padding-left: 20px;
+}
+
+
+
+
